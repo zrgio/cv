@@ -2,9 +2,9 @@
 
 ## Download | Descarga
 
-[Curriculum Vitae Español](https://github.com/zrgio/cv/blob/main/sergio_ulloa_es.pdf)
+[Curriculum Vitae Español](https://raw.githubusercontent.com/zrgio/cv/main/sergio_ulloa_es.pdf)
 
-[Curriculum Vitae English](https://github.com/zrgio/cv/blob/main/sergio_ulloa_en.pdf)
+[Curriculum Vitae English](https://raw.githubusercontent.com/zrgio/cv/main/sergio_ulloa_en.pdf)
 
 ## Compiling it
 
