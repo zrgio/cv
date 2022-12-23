@@ -8,7 +8,7 @@ pdfauthor={\CVAuthor},
 pdfsubject={\CVWebpage},
 pdfcreator={XeLaTeX},
 pdfproducer={},
-pdfkeywords={Hello there, yeah I add keywords to my PDFs programmer, programming, dev, developer, C++, golang, go, python, python3, linux, docker, latex, freelancer, freelance, dev, developer, kicad, electronics design, iot, internet of things, junior, senior, semi-senior, semi senior, svelte, sveltekit, svelte kit, ts, typescript, arduino, micropython, embedded development, cad, fusion360},
+pdfkeywords={Hello there, yeah I add keywords to my PDFs, programmer, programming, dev, developer, C++, golang, go, python, python3, linux, docker, latex, freelancer, freelance, dev, developer, kicad, electronics design, iot, internet of things, junior, senior, semi-senior, semi senior, svelte, sveltekit, svelte kit, ts, typescript, arduino, micropython, embedded development, cad, fusion360},
 unicode=true,
 pdfstartview=FitH,
 pdfpagelayout=OneColumn,
@@ -20,10 +20,10 @@ breaklinks}
 
 \begin{document}
 
-%\makeatletter
-%\let\@oddfoot\@empty
-%\let\@evenfoot\@empty
-%\makeatother
+\makeatletter
+\let\@oddfoot\@empty
+\let\@evenfoot\@empty
+\makeatother
 
 \Title{\CVAuthor}
 
@@ -54,48 +54,37 @@ Experience}
     \hfill
     August 2020
     December 2020
-    \begin{Detail}
-    \SubBulletItem
-    Electronics designer
-    \SubBulletItem
-    Software developer
-    \end{Detail}
 
-    \BigGap
+    \Gap
     \BulletItem
     \textbf{Technical Consultant}
     \hfill
     November 2019
     February 2020
-    \begin{Detail}
-    \SubBulletItem
-    Electronics technician
-    \SubBulletItem
-    Electronics designer
-    \SubBulletItem
-    Software developer
-    \end{Detail}
 
-    \BigGap
+    \Gap
     \BulletItem
     \textbf{Internship}
     \hfill
     February 2019
     November 2019
+
+    \Gap
+    \BulletItem
+    \textbf{Roles}
+    \hfill
     \begin{Detail}
     \SubBulletItem
-    Electronics technician
-    \SubBulletItem
-    Software developer
+    Electronics Technician, Electronics Designer, Software Engineer  
     \end{Detail}
 
-    \BigGap
+    \Gap
     \BulletItem
     \textbf{Highlights}
     \hfill
     \begin{Detail}
     \SubBulletItem
-    Led the hardware design process of a product oriented to the agriculture industry, including component research, prototype design, and testing
+    Led the hardware design process of an automatic fruit testing robot targeted for agriculture industry customers. Performed component research, prototyping, implementation, and testing.
     \end{Detail}
 }
 
@@ -106,7 +95,6 @@ Experience}
 {Education}
 {PDF:Education}
 {
-    \Gap
     \Entry
     \href{https://www.lichan.cl/}{\textbf{Liceo Industrial Chileno Alemán}},
     Ñuñoa, RM, Chile
@@ -116,14 +104,12 @@ Experience}
     \Gap
     \BulletItem
     \textbf{Electronics Technician Degree}
-    \BigGap
+    \Gap
     \BulletItem
     \textbf{Highlights}
     \begin{Detail}
     \SubBulletItem
-    Represented school at \href{https://worldskills.org/}{\textbf{WorldSkills Chile}} 2018, obtaining 2nd place in robotics
-    \SubBulletItem
-    Represented school at \href{https://worldskills.org/}{\textbf{WorldSkills Chile}} 2017, obtaining 2nd place in electronics
+    Represented school at \href{https://worldskills.org/}{\textbf{WorldSkills Chile}} 2017 and \href{https://worldskills.org/}{\textbf{WorldSkills Chile}} 2018, obtaining 2nd place in electronics and 2nd place in robotics, respectively.
     \end{Detail}
 }
 
@@ -135,51 +121,54 @@ Experience}
 {PDF:Skills}
 {
     {
-        \Gap
         \BulletItem
         \textbf{Programming Languages}
         \hfill
+        \Gap
         \begin{Detail}
-        \Item
+        \SubBulletItem
         Golang, Python, Arduino, C++, Bash
         \end{Detail}
     }
 
     {
-        \BigGap
+        \Gap
         \BulletItem
         \textbf{Web Development}
         \hfill
+        \Gap
         \begin{Detail}
-        \Item
+        \SubBulletItem
         SvelteKit, TailwindCSS, TypeScript
         \end{Detail}
     }
 
     {
-        \BigGap
+        \Gap
         \BulletItem
         \textbf{Electronics \& CAD Design}
         \hfill
+        \Gap
         \begin{Detail}
-        \Item
+        \SubBulletItem
         KiCad, Eagle, Fusion360, Embedded Development
         \end{Detail}
     }
 
     {
-        \BigGap
+        \Gap
         \BulletItem
-        \textbf{Miscellaneous}
+        \textbf{Development Environment \& Productivity Tools}
         \hfill
+        \Gap
         \begin{Detail}
-        \Item
-        Linux, Git, Docker, Latex, Microsoft Office Suite
+        \SubBulletItem
+        Linux, Git, Docker, NeoVim, VS Code, Latex, Microsoft Office Suite
         \end{Detail}
     }
 }
 
-\newpage
+%\newpage
 
 % ACHIEVEMENTS
 
@@ -188,86 +177,48 @@ Experience}
 {Achievements}
 {PDF:Achievements}
 {
-    \Gap
-    \BulletItem
+    \Entry
     \textbf{Capture The Flag}
     {
         \Gap
-        \SubBulletItem
+        \BulletItem
         \href{https://8dot8.org}{\textbf{8dot8 CTF}}
         \hfill
-        October 2022
         \begin{Detail}
-        \SubItem
-        Third place \newline
-        Solved challenges consisting of \newline Cyphers, Reverse Engineering \& Cryptography
+        \SubBulletItem
+        2022 - Third place - Solved challenges consisting of Cyphers, Reverse Engineering \& Cryptography.
         \end{Detail}
     }
 
-    \BigGap
-    \BulletItem
+    \Gap
+    \Entry
     \textbf{Hackathons}
     {
         {
+            \BulletItem
+            \href{https://angelhack.com}{\textbf{AngelHack Global Hackathon Series}}
+            \hfill
+            \begin{Detail}
+                \Gap
+                \SubBulletItem
+                2019 - AngelHack Santiago \& EY Fintech challenge Winner - \newline Development of a digital bank with a focus on new workers and immigrants.
+                \Gap
+                \SubBulletItem
+                2018 - Hurify Open Challenge Winner - BLE tracker development.
+            \end{Detail}
+        }
+        {
             \Gap
-            \SubBulletItem
-            \href{https://angelhack.com}{\textbf{AngelHack Global Hackathon Series}}
-            \hfill
-            July 2019
-            \begin{Detail}
-            \SubItem
-            AngelHack Santiago Winner: EY Fintech challenge Winner \newline
-            Development of a digital bank with a focus \newline on new workers and immigrants
-            \end{Detail}
-        }
-
-        {
-            \BigGap
-            \SubBulletItem
-            \href{https://angelhack.com}{\textbf{AngelHack Global Hackathon Series}}
-            \hfill
-            July 2018
-            \begin{Detail}
-            \SubItem
-            Hurify Open Challenge Winner \newline
-            BLE tracker development
-            \end{Detail}
-        }
-
-        {
-            \BigGap
-            \SubBulletItem
+            \BulletItem
             \href{https://spaceappschallenge.org}{\textbf{Nasa SpaceApps Challenge}}
             \hfill
-            April 2017
             \begin{Detail}
-            \SubItem
-            Development of IgniSight, a LoRa mesh network capable \newline of detecting wildfires
-            \end{Detail}
-        }
-
-        {
-            \BigGap
-            \SubBulletItem
-            \href{https://spaceappschallenge.org}{\textbf{Nasa SpaceApps Challenge}}
-            \hfill
-            April 2016
-            \begin{Detail}
-            \SubItem
-            First place, technology \newline
-            Development of a 3D printable modular rocket
-            \end{Detail}
-        }
-
-        {
-            \BigGap
-            \SubBulletItem
-            \href{https://spaceappschallenge.org}{\textbf{Nasa SpaceApps Challenge}}
-            \hfill
-            April 2015
-            \begin{Detail}
-            \SubItem
-            Second place, Technology
+                \Gap
+                \SubBulletItem
+                2017 - Development of IgniSight, a LoRa mesh network capable of detecting wildfires.
+                \Gap
+                \SubBulletItem
+                2016 - First place, technology - Development of a 3D printable modular rocket.
             \end{Detail}
         }
     }

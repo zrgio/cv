@@ -156,7 +156,7 @@ BoldItalicFont=FiraCode-SemiBold]
 \newcommand{\UseHeadingFont}{\normalfont}
 \newcommand{\UseHeaderFooterFont}{\UseHeadingFont\fontsize{10.2pt}{11.5pt}\selectfont}
 \newcommand{\UseNoteFont}{\UseHeadingFont\fontsize{10pt}{11.6pt}\selectfont}
-\newcommand{\UseTitleFont}{\UseHeadingFont\fontsize{28pt}{33.6pt}\selectfont\bfseries}
+\newcommand{\UseTitleFont}{\UseHeadingFont\fontsize{16pt}{20pt}\selectfont\bfseries}
 \newcommand{\UseSubTitleFont}{\normalfont\fontsize{10.6pt}{12.3pt}\selectfont}
 \newcommand{\UseSectionFont}{\UseHeadingFont\fontsize{11pt}{14pt}\selectfont\bfseries}
 \newcommand{\UseSubSectionFont}{\UseHeadingFont\fontsize{10}{13pt}\selectfont\bfseries}
