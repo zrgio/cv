@@ -11,13 +11,13 @@
 Recompile on save
 
 ```sh
-latexmk input.tex -xelatex -pvc -output-directory=./out; mv -f ./out/*.pdf .
+latexmk input.tex -xelatex -pvc
 ```
 
 Just recompile
 
 ```sh
-latexmk input.tex -xelatex -output-directory=./out; mv -f ./out/*.pdf .
+latexmk input.tex -xelatex
 ```
 
 ## Acknowledgements
