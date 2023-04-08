@@ -11,13 +11,13 @@
 Recompile on save
 
 ```sh
-latexmk input.tex -xelatex -pvc
+latexmk input.tex -xelatex -pvc -outdir=out
 ```
 
 Just recompile
 
 ```sh
-latexmk input.tex -xelatex
+latexmk input.tex -xelatex -outdir=out
 ```
 
 ## Acknowledgements
