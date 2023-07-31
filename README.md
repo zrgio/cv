@@ -8,20 +8,21 @@
 
 ## Compiling it
 
-Recompile on save
+Recompile on save:
 
 ```sh
 latexmk input.tex -xelatex -pvc -outdir=out
 ```
 
-Just compile
+Just compile:
 
 ```sh
 latexmk input.tex -xelatex -outdir=out
 ```
 
-Compile file and copy output PDF
-```
+Compile file and copy output PDF:
+
+```sh
 file=input; latexmk $file.tex -xelatex -outdir=out; cp -f out/$file.pdf .
 ```
 
